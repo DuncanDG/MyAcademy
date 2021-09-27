@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/alogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="202dp"
+        android:layout_marginRight="202dp"
+        android:fontFamily="@font/azonix"
+        android:text="A"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/logout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="9dp"
+        android:fontFamily="@font/nunitosans_regular"
+        android:text="UserName"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/register_rl"
+        app:layout_constraintTop_toBottomOf="@+id/alogo" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:fontFamily="@font/nunitosans_regular"
+        android:text="email@gmail.com"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/logout"
+        app:layout_constraintTop_toBottomOf="@+id/logout" />
+
+    <RelativeLayout
+        android:id="@+id/register_rl"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="39dp"
+        android:background="@color/tblack"
+        app:layout_constraintBottom_toTopOf="@+id/coursework_rl"
+        app:layout_constraintEnd_toStartOf="@+id/courses_rl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/username">
+
+
+        <ImageView
+            android:id="@+id/register_img"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="60dp"
+            android:foregroundGravity="center"
+            app:srcCompat="@drawable/register" />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginRight="31dp"
+            android:layout_marginBottom="18dp"
+            android:fontFamily="@font/nunitosans_regular"
+            android:text="Register"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/courses_rl"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@color/tblack"
+        app:layout_constraintBottom_toBottomOf="@+id/register_rl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/register_rl"
+        app:layout_constraintTop_toTopOf="@+id/register_rl">
+
+
+        <ImageView
+            android:id="@+id/courses_img"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="60dp"
+            app:srcCompat="@drawable/courses" />
+
+        <TextView
+            android:id="@+id/courses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/nunitosans_regular"
+            android:gravity="center"
+            android:text="Courses offered"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/coursework_rl"
+        android:layout_width="0dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="54dp"
+        android:background="@color/tblack"
+        app:layout_constraintBottom_toTopOf="@+id/profile_rl"
+        app:layout_constraintEnd_toStartOf="@+id/fee_rl"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/coursework_img"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="50dp"
+            app:srcCompat="@drawable/work" />
+
+        <TextView
+            android:id="@+id/coursework"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/nunitosans_regular"
+            android:gravity="center_horizontal"
+            android:text="Course Work"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fee_rl"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@color/tblack"
+        app:layout_constraintBottom_toBottomOf="@+id/coursework_rl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/coursework_rl"
+        app:layout_constraintTop_toTopOf="@+id/coursework_rl">
+
+
+        <ImageView
+            android:id="@+id/fee_img"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="50dp"
+            android:foregroundGravity="center_horizontal"
+            app:srcCompat="@drawable/fees" />
+
+        <TextView
+            android:id="@+id/fee"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginRight="29dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/nunitosans_regular"
+            android:gravity="center"
+            android:text="Fees Structure"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="225dp"
+            tools:layout_editor_absoluteY="476dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/profile_rl"
+        android:layout_width="0dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="41dp"
+        android:background="@color/tblack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/about_rl"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/profile_img"
+            android:layout_width="103dp"
+            android:layout_height="87dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="50dp"
+            app:srcCompat="@drawable/profile" />
+
+        <TextView
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/nunitosans_regular"
+            android:gravity="center_horizontal"
+            android:text="Profile"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/about_rl"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@color/tblack"
+        app:layout_constraintBottom_toBottomOf="@+id/profile_rl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profile_rl"
+        app:layout_constraintTop_toTopOf="@+id/profile_rl">
+
+
+        <ImageView
+            android:id="@+id/about_img"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="50dp"
+            app:srcCompat="@drawable/about" />
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/nunitosans_regular"
+            android:gravity="center_horizontal"
+            android:text="About"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toTopOf="@+id/courses_rl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/alogo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

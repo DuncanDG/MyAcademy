@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dunteh/Documents/EveningAndroidStudio/MyAcademy/app/src/main/res/drawable/ic_email.xml" value="0.1" />
+        <entry key="..\:/Users/Dunteh/Documents/EveningAndroidStudio/MyAcademy/app/src/main/res/drawable/ic_left.xml" value="0.290625" />
+        <entry key="..\:/Users/Dunteh/Documents/EveningAndroidStudio/MyAcademy/app/src/main/res/drawable/ic_lock.xml" value="0.1" />
+        <entry key="..\:/Users/Dunteh/Documents/EveningAndroidStudio/MyAcademy/app/src/main/res/drawable/ic_name.xml" value="0.290625" />
+        <entry key="..\:/Users/Dunteh/Documents/EveningAndroidStudio/MyAcademy/app/src/main/res/drawable/ic_name2.xml" value="0.290625" />
+        <entry key="..\:/Users/Dunteh/Documents/EveningAndroidStudio/MyAcademy/app/src/main/res/drawable/ic_right.xml" value="0.290625" />
+        <entry key="..\:/Users/Dunteh/Documents/EveningAndroidStudio/MyAcademy/app/src/main/res/drawable/round_border.xml" value="0.290625" />
+        <entry key="..\:/Users/Dunteh/Documents/EveningAndroidStudio/MyAcademy/app/src/main/res/drawable/round_cornered_btn.xml" value="0.290625" />
+        <entry key="..\:/Users/Dunteh/Documents/EveningAndroidStudio/MyAcademy/app/src/main/res/font/font.xml" value="0.1" />
+        <entry key="..\:/Users/Dunteh/Documents/EveningAndroidStudio/MyAcademy/app/src/main/res/layout/activity_courses.xml" value="0.2" />
+        <entry key="..\:/Users/Dunteh/Documents/EveningAndroidStudio/MyAcademy/app/src/main/res/layout/activity_login.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Dunteh/Documents/EveningAndroidStudio/MyAcademy/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Dunteh/Documents/EveningAndroidStudio/MyAcademy/app/src/main/res/layout/activity_profile.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Dunteh/Documents/EveningAndroidStudio/MyAcademy/app/src/main/res/layout/activity_register.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Dunteh/Documents/EveningAndroidStudio/MyAcademy/app/src/main/res/layout/activity_spash.xml" value="0.14375" />
+        <entry key="..\:/Users/Dunteh/Documents/EveningAndroidStudio/MyAcademy/app/src/main/res/layout/activity_splash.xml" value="0.14375" />
+        <entry key="..\:/Users/Dunteh/Documents/EveningAndroidStudio/MyAcademy/app/src/main/res/layout/fragment_second.xml" value="0.14375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
